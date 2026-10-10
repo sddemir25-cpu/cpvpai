@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "cpvpai",
+  "version": "${version}",
+  "name": "CPVP AI",
+  "description": "/cpvp ai vs ile kit al ve AI rakiple crystal pvp yap.",
+  "authors": ["you"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": { "main": ["me.cpvp.CpvpAI"] },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
